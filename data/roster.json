@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "name": "LLMOps Platforms & Workflow Automation Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T22:46:00Z",
+    "total_tools": 64,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "category": "llmops-platforms",
+  "category_name": "LLMOps Platforms & Workflow Automation",
+  "tools": [
+    {
+      "name": "Dify",
+      "type": "LLM App Builder",
+      "license": "Modified Apache-2.0",
+      "tier": "A",
+      "notes": "142K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS"
+    },
+    {
+      "name": "Flowise",
+      "type": "Visual LLM Builder",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "54.9K stars; drag-and-drop LLM flows; LangChain-native; self-hostable; owned by Workday"
+    },
+    {
+      "name": "n8n",
+      "type": "Workflow Automation",
+      "license": "Fair-code",
+      "tier": "A",
+      "notes": "188K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly"
+    },
+    {
+      "name": "Vellum",
+      "type": "Enterprise Orchestration",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "McKinsey, Coframe; experimentation, evaluation, deployment; A/B testing; SOC 2; 99.998% uptime"
+    },
+    {
+      "name": "PromptLayer",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Prompt engineering; collaboration, testing, evaluation; no-code editor for non-technical"
+    },
+    {
+      "name": "Pezzo",
+      "type": "LLMOps Platform",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Developer-first; prompt design, version management, troubleshooting; two lines of code"
+    },
+    {
+      "name": "Braintrust",
+      "type": "Evaluation Platform",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Notion, Stripe, Vercel; evaluation-driven development; Loop AI agent; 13+ integrations"
+    },
+    {
+      "name": "Zapier",
+      "type": "Workflow Automation",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "7,000+ app integrations; no-code automation; AI steps, Zapier Agents, Tables, Interfaces"
+    },
+    {
+      "name": "Make",
+      "type": "Workflow Automation",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "1,000+ integrations; visual canvas builder; filters, routers, iterators; error handling first-class"
+    },
+    {
+      "name": "Gumloop",
+      "type": "AI-Native Automation",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "~$60M funding; 130+ nodes; multi-model routing; Skills for agents; YC-backed"
+    },
+    {
+      "name": "CrewAI",
+      "type": "Multi-Agent Framework",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Python-based; multi-agent collaboration; custom pricing; agent teamwork simulation"
+    },
+    {
+      "name": "AutoGen",
+      "type": "Multi-Agent Framework",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Microsoft Research; autonomous task execution; self-prompting; maintenance mode as of 2026"
+    },
+    {
+      "name": "LangChain",
+      "type": "LLM Framework",
+      "license": "MIT",
+      "tier": "A",
+      "notes": "134K stars; 1,000+ pre-built integrations; building applications with LLMs"
+    },
+    {
+      "name": "LangGraph",
+      "type": "Agent Orchestration",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "LangChain ecosystem; stateful, cyclic multi-agent orchestration; Deep Agents for long-running"
+    },
+    {
+      "name": "LlamaIndex",
+      "type": "RAG Framework",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Broad adoption; connecting LLMs with external data; central interface for data + LLM"
+    },
+    {
+      "name": "Semantic Kernel",
+      "type": "Enterprise SDK",
+      "license": "MIT",
+      "tier": "A",
+      "notes": "Microsoft ecosystem; process framework for durable agents; Python, C#, Java; Azure AI Foundry"
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "type": "Agent Framework",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "OpenAI ecosystem; lightweight agent building; tools, guardrails, handoffs"
+    },
+    {
+      "name": "Mastra",
+      "type": "Agent Framework",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Modern stack; TypeScript-first; workflow orchestration, memory, evals"
+    },
+    {
+      "name": "Pydantic AI",
+      "type": "Agent Framework",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Python developers; type-safe agent development; Pydantic validation; FastAPI integration"
+    },
+    {
+      "name": "DSPy",
+      "type": "Pipeline Optimization",
+      "license": "Open Source (Stanford)",
+      "tier": "A",
+      "notes": "Research/enterprise; programmatic prompt optimization; eliminates manual prompt engineering"
+    },
+    {
+      "name": "Haystack",
+      "type": "Document AI/RAG",
+      "license": "Open Source (deepset)",
+      "tier": "A",
+      "notes": "Enterprise; document processing, semantic search; deep vector DB integration; deepset Cloud"
+    },
+    {
+      "name": "ZenML",
+      "type": "MLOps Orchestration",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "ML pipelines; LangChain & LlamaIndex integrations; orchestrating, experimenting, deploying"
+    },
+    {
+      "name": "Temporal",
+      "type": "Durable Execution",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Long-running workflows; automatic retry, state persistence; production-grade for agents; Go-based"
+    },
+    {
+      "name": "Langfuse",
+      "type": "Observability",
+      "license": "Open Source (MIT)",
+      "tier": "A",
+      "notes": "11K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026"
+    },
+    {
+      "name": "LangSmith",
+      "type": "Observability",
+      "license": "Proprietary (SaaS)",
+      "tier": "A",
+      "notes": "LangChain ecosystem; LangChain-native tracing, datasets; one-line integration; usage-based"
+    },
+    {
+      "name": "MLflow",
+      "type": "MLOps/LLMOps",
+      "license": "Open Source (Apache-2.0)",
+      "tier": "A",
+      "notes": "Linux Foundation; end-to-end GenAI lifecycle; only tool combining open-source, deep agent tracing"
+    },
+    {
+      "name": "Helicone",
+      "type": "API Monitoring",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Lightweight; request logging, cost tracking, caching; proxy-based; zero-code integration"
+    },
+    {
+      "name": "Comet Opik",
+      "type": "Observability",
+      "license": "Partially Open Source",
+      "tier": "A",
+      "notes": "Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise"
+    },
+    {
+      "name": "AgentOps",
+      "type": "Agent Monitoring",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Multi-framework; session replay, time-travel debugging; CrewAI, AutoGen, LangChain SDK"
+    },
+    {
+      "name": "TruLens",
+      "type": "Evaluation",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Free; evaluation auditing; moderate tracing; completely free"
+    },
+    {
+      "name": "Lunary",
+      "type": "Observability",
+      "license": "Open Source / SaaS",
+      "tier": "A",
+      "notes": "Chatbot/RAG teams; LLM apps monitoring, prompt management; self-hostable; EU data center"
+    },
+    {
+      "name": "LangWatch",
+      "type": "Observability",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "DSPy integration; agent testing, simulation; synthetic conversation testing; voice agent testing"
+    },
+    {
+      "name": "Literal AI",
+      "type": "Observability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Multi-modal; LLM observability + evaluation; prompt templates, versioned deploys, human feedback"
+    },
+    {
+      "name": "Future AGI",
+      "type": "Evals + Guardrails",
+      "license": "Open Source (Apache-2.0)",
+      "tier": "B",
+      "notes": "Enterprise; 50+ eval agents, 18 guardrails; text + voice simulation; traceAI library"
+    },
+    {
+      "name": "OpenLIT",
+      "type": "Observability",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; monitoring LLMs, VectorDBs"
+    },
+    {
+      "name": "Maxim AI",
+      "type": "Compliance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Enterprise; SOC2/HIPAA-ready observability; drift detection, audit trails, auto-remediation"
+    },
+    {
+      "name": "HoneyHive",
+      "type": "Agent Monitoring",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Production agents; flexible deployment (SaaS, hybrid, self-hosted); agent lifecycle monitoring"
+    },
+    {
+      "name": "Parea AI",
+      "type": "Prompt Engineering",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI Engineers; LLM evaluation, observability, prompt playground; version-controlled enhanced prompt"
+    },
+    {
+      "name": "Adaline",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Production teams; end-to-end prompt lifecycle; versioning, testing, deployment, monitoring"
+    },
+    {
+      "name": "PromptHub",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Git-like workflow; versioning, branching, reviews; code-review workflow for prompts"
+    },
+    {
+      "name": "Humanloop",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Prompt editing; polished editing experience; narrower observability; no span-level tracing"
+    },
+    {
+      "name": "Confident AI",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Git-based; branching, commit, approval workflows; only platform with git-style branching"
+    },
+    {
+      "name": "Promptfoo",
+      "type": "Prompt Testing",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "CI/CD; regression tests, prompt quality; open-source tool for testing & evaluating; CLI and CI/CD"
+    },
+    {
+      "name": "PromptMage",
+      "type": "Prompt Workflows",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Self-hosted; LLM workflows and prompts; simplify creation and management of LLM workflows"
+    },
+    {
+      "name": "PromptSite",
+      "type": "Prompt Lifecycle",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Local filesystem; version control, tracking, experimentation; lightweight Python library"
+    },
+    {
+      "name": "Prompteams",
+      "type": "Prompt Management",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Real-time APIs; version, test, collaborate, retrieve; GitHub-style repos, branches, commits"
+    },
+    {
+      "name": "Prompttools",
+      "type": "Prompt Testing",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Notebook-friendly; testing and experimenting with prompts; evaluate across different models"
+    },
+    {
+      "name": "PromptDX",
+      "type": "Prompt Development",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Markdown/JSX; declarative, extensible, composable prompts; Markdown and JSX approach"
+    },
+    {
+      "name": "PromptFoundry",
+      "type": "Prompt Engineering",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Developers; simple prompt engineering and evaluation; designed for developers building AI apps"
+    },
+    {
+      "name": "Wordware",
+      "type": "Agent IDE",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Domain experts + engineers; web-hosted IDE for task-specific AI agents; prompting as programming"
+    },
+    {
+      "name": "LangKit",
+      "type": "Telemetry",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Out-of-the-box; LLM telemetry collection; extracts features and profiles prompts, responses, metadata"
+    },
+    {
+      "name": "Langflow",
+      "type": "Visual LLM Builder",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Active community; prototype LangChain flows; drag-and-drop components + chat interface"
+    },
+    {
+      "name": "RAGflow",
+      "type": "RAG Engine",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "80.7K+ stars; deep document understanding; complex PDF/table parsing; dedicated RAG backend"
+    },
+    {
+      "name": "Botpress",
+      "type": "Conversational",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Open-source dialog + LLM; modular; community extensible"
+    },
+    {
+      "name": "Rasa",
+      "type": "Conversational",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "20K+ stars; 25M+ downloads; open-source + Rasa Studio; developer edition free"
+    },
+    {
+      "name": "Voiceflow",
+      "type": "No-code",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Visual agent builder; voice + chat; enterprise teams"
+    },
+    {
+      "name": "Relevance AI",
+      "type": "No-code",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Drag-and-drop; zero coding; non-technical users"
+    },
+    {
+      "name": "Coze",
+      "type": "No-code",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "ByteDance; 100K+ bots; zero-code Bot builder; Doubao model; multi-channel publish"
+    },
+    {
+      "name": "BISHENG",
+      "type": "Enterprise Platform",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "China; 'Proudly made by Chinese'; Fortune 500 deployments; open-source alternative to Dify"
+    },
+    {
+      "name": "FastGPT",
+      "type": "RAG Platform",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "China; RAG-focused; knowledge base QA; workflow orchestration"
+    },
+    {
+      "name": "Orq.ai",
+      "type": "LLMOps Platform",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Europe; LLM app development platform; experiment, evaluate, deploy"
+    },
+    {
+      "name": "Langdock",
+      "type": "LLMOps Platform",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Europe; enterprise LLM platform; compliance-focused; EU AI Act ready"
+    },
+    {
+      "name": "Kissflow",
+      "type": "Workflow Automation",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "India; low-code workflow; AI integration; enterprise BPM"
+    },
+    {
+      "name": "DronaHQ",
+      "type": "Low-Code Platform",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "India; low-code app builder; AI workflow automation; enterprise"
+    }
+  ]
+}
