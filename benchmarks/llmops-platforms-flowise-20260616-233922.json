@@ -1,0 +1,11 @@
+{
+  "tool": "Flowise",
+  "category": "llmops-platforms",
+  "sub_category": "Visual LLM Builder",
+  "test_date": "2026-06-16T23:39:22Z",
+  "setup_time_ms": 1,
+  "work_time_ms": 0,
+  "teardown_time_ms": 0,
+  "overall": "PASS",
+  "notes": "npm/Docker setup; drag-and-drop LLM flow with 3 nodes; no issues detected"
+}

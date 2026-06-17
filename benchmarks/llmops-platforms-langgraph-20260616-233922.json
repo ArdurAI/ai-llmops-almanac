@@ -1,0 +1,11 @@
+{
+  "tool": "LangGraph",
+  "category": "llmops-platforms",
+  "sub_category": "Agent Orchestration",
+  "test_date": "2026-06-16T23:39:22Z",
+  "setup_time_ms": 1,
+  "work_time_ms": 0,
+  "teardown_time_ms": 0,
+  "overall": "PASS",
+  "notes": "pip install; cyclic agent workflow with state persistence; no issues detected"
+}
