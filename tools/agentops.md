@@ -210,6 +210,56 @@ Dashboard available at app.agentops.ai. Session replays appear automatically aft
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+AgentOps is an open-source agent monitoring and observability platform (MIT license, 5,600+ GitHub stars) that provides session-level tracing, cost tracking, and error detection specifically designed for autonomous AI agents. Unlike general LLM observability tools, AgentOps captures the full execution graph of multi-step agent workflows, including tool calls, decision points, and LLM invocations, making it invaluable for debugging complex agentic behavior. It integrates with CrewAI, AutoGen, LangChain, and OpenAI Agents SDK with a single-line SDK import.
+
+### 2. Gotchas of Using This Tool
+
+AgentOps requires an API key and sends trace data to its cloud dashboard by default, which may not suit teams with strict data privacy requirements unless self-hosting is configured. The SDK adds overhead to every agent execution, and community reports note occasional performance overhead with high-frequency agent loops. The platform's smaller community (5,600 stars vs 19,000+ for Langfuse) means fewer community-contributed integrations and templates.
+
+### 3. Limitations
+
+AgentOps focuses primarily on Python-based agent frameworks; TypeScript and other language support is limited. The free tier caps at 3,000 events per month, which is quickly exhausted by active agent development. Advanced features like custom evaluation metrics and dataset management are less mature than LangSmith or Braintrust. Self-hosting the full dashboard requires significant infrastructure setup compared to Langfuse's Docker Compose deployment.
+
+### 4. How Secure Is This Tool?
+
+AgentOps is MIT-licensed open source with the full SDK and core available on GitHub for independent security review. The cloud platform handles API keys and trace data; SOC 2 compliance status is not prominently documented. No public CVEs or security advisories are associated with the project. Teams concerned about data exfiltration should use the self-hosted deployment option or configure event filtering to exclude sensitive payloads.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 3/10.** AgentOps is a developer tool requiring Python knowledge and understanding of agent architectures. Non-technical users cannot use it meaningfully without engineering support.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+AgentOps uniquely focuses on agent-first observability — tracing entire agent sessions with tool call attribution and prompt injection detection, rather than just individual LLM calls. Its one-line integration with popular agent frameworks (CrewAI, AutoGen, LangChain) is smoother than competitors that require more boilerplate. The built-in prompt injection detection and replay debugging features are not commonly found in general LLM observability tools.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | LangSmith | Full LLMOps tracing | Ecosystem depth |
+| 2 | Langfuse | Open-source observability | Self-hostable |
+| 3 | AgentOps | Agent-first monitoring | Agent session replay |
+| 4 | Braintrust | Evaluation + observability | Eval workflows |
+| 5 | HoneyHive | Agent testing | Test suites |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+AgentOps is actively developed with regular commits on GitHub and a growing community. Key improvements needed include broader language SDK support (TypeScript, Go), a more generous free tier, enhanced self-hosting documentation, and deeper evaluation capabilities to match LangSmith. Expanding integrations with vector databases and RAG pipelines would also increase its utility for production agent deployments.
+
+### 9. Official Maintainer Contacts
+
+AgentOps is maintained by AgentOps AI Inc. GitHub: https://github.com/AgentOps-AI/agentops. Discord: https://discord.com/invite/agentops. Documentation: https://docs.agentops.ai. The team is responsive on Discord and GitHub issues.
+
+### 10. General Usage Guidance
+
+Use AgentOps if you are building autonomous agents with CrewAI, AutoGen, or LangChain and need session-level debugging and cost attribution. Start with the free tier to evaluate integration depth, then self-host if data privacy is critical. Pair it with Langfuse or LangSmith if you also need broader LLM call observability beyond agent workflows.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
