@@ -216,6 +216,56 @@ cd opik && ./opik.sh
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+Comet Opik is an LLM observability and evaluation platform from Comet ML that provides tracing, prompt evaluation, and production monitoring for LLM applications. With 5,000+ GitHub stars (18,000+ across the broader Comet ecosystem), it integrates with 60+ tools including OpenAI, Anthropic, LangChain, CrewAI, and LlamaIndex. The platform is particularly useful for teams already in the Comet ML ecosystem who want unified ML and LLM observability.
+
+### 2. Gotchas of Using This Tool
+
+Opik's integration with the broader Comet ML platform can create confusion about which features belong to Opik vs. Comet ML, and teams may end up paying for both. The self-hosted version requires significant infrastructure setup. Some users report that the UI becomes sluggish with high trace volumes. The platform's rapid evolution means documentation sometimes lags behind features.
+
+### 3. Limitations
+
+Opik's agent tracing capabilities are less mature than dedicated agent monitoring tools like AgentOps. The evaluation framework is not as flexible as Braintrust's code-defined scorers. Self-hosting requires Docker expertise and multiple services. The free tier is limited compared to Langfuse's open-source self-hosted option. The platform does not provide native prompt management with version control.
+
+### 4. How Secure Is This Tool?
+
+Opik is partially open-source with the core platform available on GitHub (Apache 2.0 for the SDK). The cloud platform is SOC 2 Type II compliant as part of Comet ML's broader security program. Data is encrypted at rest and in transit. No major CVEs have been reported. Teams self-hosting should follow Docker security best practices and secure the PostgreSQL backend.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 4/10.** Opik is a developer-focused observability tool requiring understanding of LLM application architecture. Non-technical users would need significant support to use it effectively.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+Opik's unique strength is its connection to the Comet ML ecosystem, providing a unified view across traditional ML experiments and LLM applications — valuable for teams doing both. The platform's integration breadth (60+ tools) and the ability to self-host the full stack differentiate it from purely cloud-based alternatives. Its prompt simulation and A/B testing features are well-integrated with the tracing pipeline.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | LangSmith | Full LLMOps + tracing | Ecosystem depth |
+| 2 | Langfuse | Open-source observability | Self-hostable |
+| 3 | Braintrust | Evaluation platform | Eval workflows |
+| 4 | Comet Opik | ML + LLM observability | Comet ecosystem |
+| 5 | Helicone | Proxy monitoring | Simplicity |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+Opik is actively developed by the Comet ML team with regular releases. Key improvements include decoupling Opik more clearly from Comet ML for standalone use, improving agent tracing depth, adding native prompt versioning, and streamlining the self-hosting experience. Performance optimization for high-volume tracing and better documentation would also help.
+
+### 9. Official Maintainer Contacts
+
+Comet Opik is maintained by Comet ML Inc. GitHub: https://github.com/comet-ml/opik. Website: https://comet.com/site/products/opik/. Documentation: https://www.comet.com/docs/opik/. Community: https://comet.com/site/community/.
+
+### 10. General Usage Guidance
+
+Use Opik if you are already in the Comet ML ecosystem or need unified ML + LLM observability. For teams focused purely on LLM applications, evaluate Langfuse (open-source self-hostable) and LangSmith (LangChain ecosystem) first. The self-hosted option is viable for teams with Docker expertise and data residency requirements.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

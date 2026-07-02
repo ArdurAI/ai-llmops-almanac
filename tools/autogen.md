@@ -211,6 +211,56 @@ pip install -U "autogenstudio"
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+AutoGen is Microsoft Research's multi-agent conversational AI framework that pioneered the paradigm of LLM agents communicating through natural language to collaboratively solve complex tasks. With 55,300+ GitHub stars and 8,300+ forks, it introduced influential concepts like the AgentTool wrapper and hierarchical agent orchestration. It is particularly useful for research teams and organizations exploring multi-agent topologies, code execution agents, and conversational group chat patterns.
+
+### 2. Gotchas of Using This Tool
+
+AutoGen entered maintenance mode in late 2025 as Microsoft shifted focus to the unified Microsoft Agent Framework (merging AutoGen + Semantic Kernel). This means new features are unlikely and teams should evaluate migration paths. The framework's API changed significantly between v0.2 and v0.4, breaking many existing tutorials and community code. AutoGen's default execution model requires Docker for code execution agents, adding deployment complexity.
+
+### 3. Limitations
+
+AutoGen lacks built-in state persistence — agent conversations are held in memory and lost on process restart unless custom persistence is implemented. The framework does not provide native observability or evaluation tooling, requiring integration with Langfuse or AgentOps. Performance at scale (many concurrent agents) is not well-documented, and the conversational orchestration pattern can lead to high token consumption as agents exchange messages. Documentation for the v0.4 API is incomplete in several areas.
+
+### 4. How Secure Is This Tool?
+
+AutoGen is MIT-licensed and fully open source, allowing independent security review. The code execution agent feature (which runs LLM-generated code in Docker containers) is a significant security surface — teams must ensure proper container isolation and resource limits. No major CVEs have been reported for the core framework. Microsoft's involvement provides enterprise-grade security practices, but the maintenance mode status means security patches may slow down.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 3/10.** AutoGen is a developer framework requiring Python proficiency. Non-technical users cannot interact with it directly; it requires engineering teams to build and deploy agent systems.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+AutoGen pioneered the conversational multi-agent pattern where agents discuss and collaborate through natural language, a paradigm now adopted by many successor frameworks. Its GroupChat and AgentTool abstractions for recursive agent composition remain influential. However, its unique positioning has been eroded as CrewAI, LangGraph, and the Microsoft Agent Framework have adopted similar patterns with better developer ergonomics.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | CrewAI | Role-based multi-agent | Production-ready |
+| 2 | LangGraph | Graph-based orchestration | State persistence |
+| 3 | AutoGen | Conversational multi-agent | Research pioneer |
+| 4 | OpenAI Agents SDK | Lightweight agents | OpenAI-native |
+| 5 | MS Agent Framework | Unified (SK + AutoGen) | Enterprise |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+AutoGen is in maintenance mode — Microsoft recommends the Microsoft Agent Framework for new projects. Improvements for existing users include better migration tooling to the new framework, documentation for common production patterns, and community-maintained security patches. The research community would benefit from continued academic publications building on AutoGen's foundations.
+
+### 9. Official Maintainer Contacts
+
+AutoGen is maintained by Microsoft Research. GitHub: https://github.com/microsoft/autogen. Successor: https://github.com/microsoft/agent-framework. Documentation: https://microsoft.github.io/autogen/stable. Issues are monitored on GitHub but feature development has ceased.
+
+### 10. General Usage Guidance
+
+Do NOT start new projects with AutoGen — evaluate the Microsoft Agent Framework, CrewAI, or LangGraph instead. Existing AutoGen users should plan migration to the Microsoft Agent Framework. AutoGen remains valuable for research and experimentation with conversational multi-agent patterns, and its concepts inform modern framework design.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

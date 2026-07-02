@@ -227,6 +227,56 @@ print(result.final_output)
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+The OpenAI Agents SDK (~19,000 GitHub stars) is OpenAI's official lightweight framework for building production multi-agent systems, released in March 2025 as the successor to the experimental 'Swarm' prototype. It provides minimal, opinionated primitives — Agent, Tool, Handoff, Guardrail, and Runner — that strip away boilerplate for wiring LLMs, function calling, and state management. It is the default starting point for teams committed to OpenAI's model stack who want clean multi-agent orchestration.
+
+### 2. Gotchas of Using This Tool
+
+The SDK is OpenAI-centric — while it supports other providers via LiteLLM, the design optimizes for OpenAI models and features (Responses API, function calling format). Session storage is in-memory by default; persistent sessions require SQLite/SQLAlchemy configuration. The lightweight nature means teams need to build their own observability, persistence, and deployment infrastructure. The SDK is relatively new (March 2025) with a still-maturing ecosystem of examples and best practices.
+
+### 3. Limitations
+
+The OpenAI Agents SDK lacks built-in state persistence, observability, and production deployment tooling — it is a framework, not a platform. Multi-agent orchestration patterns are less flexible than LangGraph's graph model. Guardrails are basic compared to dedicated safety tools. TypeScript support exists but may lag the Python SDK. The tight OpenAI coupling means teams using other providers primarily may get less value. No built-in evaluation framework.
+
+### 4. How Secure Is This Tool?
+
+The SDK is MIT-licensed (open source) with code on GitHub for independent review. The guardrail primitives (input/output validation) provide basic safety controls. The SDK executes tool functions — teams must validate inputs and restrict tool permissions. No major CVEs have been reported. OpenAI's model API calls are processed under OpenAI's privacy policy. Teams should ensure API keys are stored securely and that guardrails are properly configured to prevent unsafe outputs.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 3/10.** The OpenAI Agents SDK is a developer framework requiring Python proficiency. Non-technical users cannot interact with it; it requires engineering teams.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+The SDK's unique strength is being OpenAI's official, lightweight multi-agent framework with first-class support for OpenAI features (Responses API, computer use, deep research). The Handoff primitive for agent-to-agent delegation is elegantly simple. The guardrail system for input/output validation is built-in rather than requiring third-party tools. The minimal, composable design (five primitives) is less overwhelming than full frameworks.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | CrewAI | Role-based multi-agent | Production + enterprise |
+| 2 | LangGraph | Graph orchestration | State persistence |
+| 3 | OpenAI Agents SDK | Lightweight agents | OpenAI-native |
+| 4 | Mastra | TS-first agents | TypeScript ecosystem |
+| 5 | AutoGen | Conversational (legacy) | Research |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+The SDK is actively developed by OpenAI with regular releases. Key improvements include adding built-in state persistence, native observability hooks, production deployment guides, expanding non-OpenAI provider support, adding an evaluation framework, and providing more complex multi-agent examples. Better documentation for production patterns would help teams move beyond prototyping.
+
+### 9. Official Maintainer Contacts
+
+The OpenAI Agents SDK is maintained by OpenAI. GitHub (Python): https://github.com/openai/openai-agents-python. GitHub (TypeScript): https://github.com/openai/openai-agents-typescript. Announcement: https://openai.com/index/new-tools-for-building-agents/. Documentation: https://github.com/openai/openai-agents-python/tree/main/docs.
+
+### 10. General Usage Guidance
+
+Use the OpenAI Agents SDK if you are committed to OpenAI's model stack and want a lightweight, official framework for multi-agent systems. For provider-agnostic orchestration, evaluate CrewAI or LangGraph. For TypeScript-first teams, evaluate Mastra. Pair with AgentOps or LangSmith for observability. Configure persistent sessions (SQLite/SQLAlchemy) for production use to avoid state loss on restart.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

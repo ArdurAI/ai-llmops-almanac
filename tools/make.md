@@ -207,6 +207,56 @@ make login
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+Make (formerly Integromat) is a visual automation platform that enables teams to build complex workflows connecting 1,800+ apps without coding. Its visual scenario builder with routers, filters, iterators, and error handlers makes it more powerful than simpler automation tools for complex multi-step workflows. The credit-based pricing model offers a genuine free tier (1,000 credits/month, 2 active scenarios) and scales transparently with workflow complexity.
+
+### 2. Gotchas of Using This Tool
+
+Make's credit-based billing can escalate unexpectedly — a 10-step scenario running 100 times consumes 1,000 credits, and some operations (Make Code, AI actions) cost multiple credits per execution. The visual scenario builder becomes complex and hard to debug for workflows with many branches and conditional logic. Rate limits on certain app connectors can cause delays. The platform is cloud-only with no self-hosting option, creating data residency limitations.
+
+### 3. Limitations
+
+Make's AI/LLM capabilities are relatively basic compared to AI-native platforms like n8n or Gumloop — AI nodes are integrations rather than first-class workflow components. The 1,800+ app integrations are impressive but fewer than Zapier's 7,000+. Self-hosting is not available, which is a blocker for regulated industries. Complex scenario logic requires Make's visual DSL, which has a learning curve. The platform does not provide agent orchestration or multi-agent capabilities.
+
+### 4. How Secure Is This Tool?
+
+Make is operated by Celonis (acquired Integromat in 2020). The platform is SOC 2 Type II compliant, ISO 27001 certified, and GDPR compliant. Data is encrypted at rest and in transit. The platform offers SSO, RBAC, and audit logging on enterprise plans. No major CVEs are associated. Teams in regulated industries should review data residency options. The cloud-only deployment model limits control over data processing location.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 7/10.** Make's visual scenario builder is accessible to semi-technical and even non-technical users for building automation workflows. The drag-and-drop interface with visual branching is intuitive for process-minded users.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+Make's unique strength is its powerful visual scenario builder — routers, iterators, filters, error handlers, and data transformations in a drag-and-drop interface that is more capable than Zapier for complex workflows. The transparent credit-based pricing (one credit per module execution) makes costs predictable. The free tier with no time limit is more generous than Zapier's trial. The Celonis backing provides enterprise credibility.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | n8n | Workflow automation | Open-source + AI |
+| 2 | Zapier | Integration platform | 7,000+ apps |
+| 3 | Make | Visual automation | Scenario builder |
+| 4 | Gumloop | AI-native automation | AI-first |
+| 5 | Relevance AI | AI workforce | Agent building |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+Make is actively developed by Celonis with regular feature updates. Key improvements include expanding AI/LLM-native capabilities, adding self-hosting options, improving the scenario debugging experience, expanding the integration catalog, optimizing credit consumption for AI-heavy workflows, and adding agent orchestration features.
+
+### 9. Official Maintainer Contacts
+
+Make is maintained by Celonis (acquired Integromat). Website: https://www.make.com. Documentation: https://www.make.com/en/help. Community: https://www.make.com/en/community. GitHub: https://github.com/integromat.
+
+### 10. General Usage Guidance
+
+Use Make if you need complex visual automation workflows with powerful branching and data transformation capabilities. The free tier is excellent for experimentation. For AI-native automation, evaluate n8n or Gumloop. For maximum integration coverage, evaluate Zapier. Monitor credit consumption carefully, especially for workflows with many steps or AI operations.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

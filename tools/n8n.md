@@ -215,6 +215,56 @@ docker run -it --rm \
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+n8n is a fair-code workflow automation platform (174,000-188,000 GitHub stars, 100M+ Docker pulls) founded in 2019 by Jan Oberhauser in Berlin. It combines a visual node-based editor with full JavaScript and Python code support, offering 400+ native integrations and 1,200+ total integrations including ~70 AI/LLM nodes. n8n is uniquely flexible for both no-code users and developers, with self-hosting via Docker and a sustainable fair-code license.
+
+### 2. Gotchas of Using This Tool
+
+n8n's fair-code license (Sustainable Use License) is not fully open source — commercial use as a platform service is restricted, which may concern some teams. Self-hosting requires managing the n8n instance, database, and scaling infrastructure. Complex workflows with many nodes can be difficult to debug in the visual editor. The AI agent nodes, while powerful, can incur high LLM API costs if not carefully configured with rate limits. Upgrading between major versions occasionally requires workflow migration.
+
+### 3. Limitations
+
+n8n's AI/LLM capabilities are growing but less mature than AI-native platforms like Gumloop or Dify. The platform's scalability under very high throughput requires careful infrastructure planning (queue mode, Redis, PostgreSQL). Multi-tenant deployment is not native. The JavaScript execution environment in nodes has sandboxing limitations. Some advanced features (SSO, RBAC, log streaming) require paid enterprise plans. The community node ecosystem varies in quality.
+
+### 4. How Secure Is This Tool?
+
+n8n is licensed under the Sustainable Use License (fair-code, not OSI-approved open source) with source code on GitHub. The platform has had security advisories (including authentication bypass vulnerabilities in older versions) that have been patched — teams should keep updated. Enterprise plans offer SSO, RBAC, audit logging, and external secrets management. Teams self-hosting should secure the PostgreSQL database, restrict n8n instance access, enable authentication, and use environment variables for API keys.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 7/10.** n8n's visual node-based editor is accessible to semi-technical users for building automation workflows. Non-technical users can create simple flows, but complex workflows with code nodes require developer involvement.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+n8n's unique strength is combining a powerful visual workflow builder with full code (JavaScript + Python) support and self-hosting capability — bridging the gap between no-code platforms and developer tools. The 174K+ GitHub stars and 100M+ Docker pulls demonstrate massive adoption. The AI agent nodes with tool-calling capabilities make n8n one of the few automation platforms natively supporting AI agent workflows. The fair-code model balances open access with sustainable business.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | n8n | Workflow automation | Open-source + AI + self-host |
+| 2 | Zapier | Integration platform | 7,000+ apps |
+| 3 | Make | Visual automation | Scenario builder |
+| 4 | Gumloop | AI-native automation | AI-first + governance |
+| 5 | Dify | LLM app builder | Visual + RAG |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+n8n is very actively developed by n8n GmbH with frequent releases. Key improvements include deepening AI agent capabilities, simplifying multi-tenant deployment, improving workflow debugging tools, expanding the integration catalog, optimizing performance for high-throughput scenarios, and improving documentation for self-hosted production deployments.
+
+### 9. Official Maintainer Contacts
+
+n8n is maintained by n8n GmbH (Berlin, Germany). GitHub: https://github.com/n8n-io/n8n. Website: https://n8n.io. Documentation: https://docs.n8n.io. Community: https://community.n8n.io.
+
+### 10. General Usage Guidance
+
+Use n8n if you want a self-hostable, code-friendly workflow automation platform with growing AI capabilities. The self-hosted option is excellent for data control and cost management. For AI-native automation, evaluate Gumloop. For pure no-code, evaluate Make or Zapier. Start with Docker for local development, then scale with queue mode (Redis + PostgreSQL) for production. Review the fair-code license before commercial platform use.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

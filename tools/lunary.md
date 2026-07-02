@@ -221,6 +221,56 @@ Dashboard available at app.lunary.ai or localhost for self-hosted.
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+Lunary is an open-source LLM observability platform (1,395+ GitHub stars) that provides tracing, prompt management, and monitoring specifically optimized for chatbot use cases. It is SOC 2 Type II and ISO 27001 certified, with EU data center options for GDPR compliance. The platform is designed for quick setup (under two minutes) and offers a free tier covering 10,000 events per month with 30-day retention. It is particularly useful for teams building chatbots that need fast time-to-value observability.
+
+### 2. Gotchas of Using This Tool
+
+Lunary's community is significantly smaller than Langfuse (1,395 stars vs 16,000+), meaning fewer community-contributed integrations and templates. The platform's feature breadth is narrower than more established alternatives. Self-hosting via Kubernetes or Docker adds operational complexity. The free tier's 10,000 events/month limit is quickly consumed by active development. Advanced features may require paid plans.
+
+### 3. Limitations
+
+Lunary's evaluation framework is minimal compared to Braintrust or Langfuse. The platform's agent tracing capabilities are less specialized than AgentOps. Integration with non-chatbot LLM applications may require custom work. The smaller community means limited community support and fewer third-party tutorials. Advanced analytics and custom metrics are less mature than larger platforms.
+
+### 4. How Secure Is This Tool?
+
+Lunary is SOC 2 Type II and ISO 27001 certified — strong security credentials for a smaller platform. The platform supports EU data center deployment for GDPR compliance. Self-hosting via Kubernetes or Docker provides full data control. Data is encrypted at rest and in transit. No major CVEs have been reported. The open-source nature allows independent security review.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 4/10.** Lunary is a developer tool requiring API integration. The dashboard is usable by semi-technical users for monitoring, but setup requires engineering support.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+Lunary's unique strength is its chatbot-optimized observability with fast setup (under two minutes) and strong compliance credentials (SOC 2 + ISO 27001). The EU data center option for GDPR compliance addresses a need that many US-based alternatives don't prioritize. The platform's focus on chatbot-specific metrics (conversation quality, user satisfaction) differentiates it from general LLM observability tools.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | Langfuse | Open-source observability | Self-hostable + free |
+| 2 | LangSmith | Full LLMOps tracing | Ecosystem depth |
+| 3 | Helicone | Proxy monitoring | Zero-code |
+| 4 | Lunary | Chatbot observability | SOC 2 + ISO 27001 |
+| 5 | LangWatch | Monitoring insights | Cost optimization |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+Lunary is actively developed with regular releases. Key improvements include expanding the evaluation framework, deepening agent tracing, growing the community, expanding framework integrations, improving documentation, and adding more pre-built templates. The strong compliance certifications should be more prominently marketed.
+
+### 9. Official Maintainer Contacts
+
+Lunary is maintained by Lunary AI. GitHub: https://github.com/lunary-ai/lunary. Website: https://lunary.ai. Documentation: https://docs.lunary.ai.
+
+### 10. General Usage Guidance
+
+Use Lunary if you need chatbot-focused observability with fast setup and strong compliance (SOC 2 + ISO 27001). The free tier (10,000 events/month) is good for prototyping. For open-source self-hosting with more features, evaluate Langfuse. For zero-code monitoring, evaluate Helicone. The EU data center option makes Lunary attractive for GDPR-sensitive deployments.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

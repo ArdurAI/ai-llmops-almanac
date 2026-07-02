@@ -219,6 +219,56 @@ npx nx serve console
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+Pezzo is an open-source, GraphQL-based prompt management platform that provides centralized prompt storage, versioning, and observability for LLM applications. It offers a hosted cloud option and self-hosting via Docker. The platform is useful for teams that want an open-source alternative to proprietary prompt management tools with transparent pricing and full data control.
+
+### 2. Gotchas of Using This Tool
+
+Multiple independent reviewers (e.g., nolist.ai, March 2026) report that Pezzo's active development effectively ceased after June 2025, with no major commits or SDK updates in 9+ months. This development stagnation is a significant risk for teams relying on Pezzo for production prompt management. The GraphQL API, while flexible, adds complexity for teams not familiar with GraphQL. The community is small compared to Langfuse or LangSmith.
+
+### 3. Limitations
+
+Pezzo's evaluation framework is minimal. The platform's observability features are basic compared to Langfuse. Agent tracing is not supported. The TypeScript/JavaScript SDK is primary; Python support is less mature. The development stagnation means bug fixes and security patches may be delayed. Integration with popular LLM frameworks requires custom connectors.
+
+### 4. How Secure Is This Tool?
+
+Pezzo is open-source, allowing independent security review. The platform manages API keys for LLM providers — teams should secure credential storage. No major CVEs have been reported, but the development stagnation means any newly discovered vulnerabilities may not be promptly patched. Teams self-hosting should secure the PostgreSQL backend and API endpoints. The GraphQL API should be secured with proper authentication and rate limiting.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 4/10.** Pezzo's prompt management UI is accessible to semi-technical users. Non-technical users can view and manage prompts, but setup requires developer support.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+Pezzo's unique strength is being a fully open-source, GraphQL-based prompt management platform with transparent pricing. The GraphQL API provides flexible querying for prompt management workflows. The self-hostable architecture with Docker provides full data control. However, the development stagnation significantly undermines its value proposition.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | Langfuse | Open-source observability | Active development |
+| 2 | PromptLayer | Prompt versioning | API-first |
+| 3 | Pezzo | Open-source prompt mgmt | GraphQL API |
+| 4 | Adaline | Prompt iteration | Onboarding ease |
+| 5 | Humanloop | Collaborative prompts | Human evaluation |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+Pezzo's development has stagnated since June 2025 — this is the most critical issue. The project needs either renewed active development or a clear community fork/maintenance plan. Key improvements if development resumes include adding evaluation features, deepening observability, expanding framework integrations, adding Python SDK support, and addressing security concerns from the stagnation period.
+
+### 9. Official Maintainer Contacts
+
+Pezzo is maintained by Pezzo Labs. GitHub: https://github.com/pezzolabs/pezzo. Website: https://pezzo.ai. Documentation: https://docs.pezzo.ai. No public community Discord is documented. GitHub activity should be checked before adoption.
+
+### 10. General Usage Guidance
+
+Exercise caution before adopting Pezzo due to development stagnation since June 2025. Verify GitHub commit activity and issue responsiveness before committing. For active open-source prompt management, evaluate Langfuse. For proprietary alternatives with active development, evaluate PromptLayer or Humanloop. If you adopt Pezzo, plan for potential fork/maintenance if development does not resume.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.

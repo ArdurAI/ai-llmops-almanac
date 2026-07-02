@@ -217,6 +217,56 @@ Dashboard available at localhost:3000 for self-hosted or app.helicone.ai for clo
 
 ---
 
+## Deep Analysis
+
+> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### 1. How Is This Tool Useful?
+
+Helicone is an open-source LLM observability platform (Apache 2.0, 5,000+ GitHub stars, YC W23) that provides lightweight, proxy-based monitoring for LLM applications. It has processed over 14.2 trillion tokens and operates as a transparent proxy between applications and LLM providers, capturing request logs, cost tracking, latency metrics, and usage analytics with minimal integration effort. The proxy-based approach means no SDK changes are required — just a base URL change.
+
+### 2. Gotchas of Using This Tool
+
+Helicone's proxy-based architecture adds a network hop, introducing latency (typically 5-20ms) to every LLM call. The proxy can become a single point of failure if not properly configured with fallbacks. Rate limiting and caching features, while useful, require careful configuration to avoid breaking real-time use cases. The free tier has limits on request volume and retention period. Some advanced features (custom metrics, alerts) require paid plans.
+
+### 3. Limitations
+
+Helicone's observability is request/response-focused — it lacks deep agent session tracing compared to AgentOps or LangSmith. The evaluation framework is minimal compared to Braintrust or Langfuse. Self-hosting requires managing the proxy infrastructure, ClickHouse database, and dashboard separately. The platform's prompt management features are basic. Integration with non-OpenAI providers is less mature.
+
+### 4. How Secure Is This Tool?
+
+Helicone is open-source under Apache 2.0, allowing independent security review. The proxy handles all LLM traffic, meaning it processes API keys and request/response data — teams must secure the proxy deployment. Helicone Cloud is SOC 2 Type II compliant. No major CVEs have been reported. Teams self-hosting should encrypt the ClickHouse database, use HTTPS for the proxy, and restrict dashboard access with authentication.
+
+### 5. Usefulness to General Public and Non-Technical Users
+
+**Rating: 4/10.** Helicone is a developer tool requiring API integration knowledge. The dashboard is usable by semi-technical users for monitoring, but setup requires engineering support.
+
+### 6. What Does This Tool Solve That Others Don't?
+
+Helicone's unique strength is its zero-code proxy-based approach — changing a base URL enables full observability without SDK modifications, making it the fastest way to add monitoring to existing LLM applications. The 14.2 trillion tokens processed demonstrate massive scale validation. Built-in caching and rate limiting provide cost optimization that observability-only tools lack. The transparent proxy model also enables cost attribution and budget enforcement.
+
+### 7. How Does This Tool Rank Compared to Others?
+
+| Rank | Tool | Focus | Strength |
+|------|------|-------|----------|
+| 1 | Langfuse | Open-source observability | Self-hostable + evals |
+| 2 | LangSmith | Full LLMOps tracing | Ecosystem depth |
+| 3 | Helicone | Proxy monitoring | Zero-code + caching |
+| 4 | Lunary | Chatbot observability | Quick setup |
+| 5 | OpenLIT | OpenTelemetry-native | OTel ecosystem |
+
+### 8. How Can This Tool Be Improved? How Active Is Development?
+
+Helicone is actively developed by the YC W23 team with regular releases. Key improvements include deeper agent tracing, expanding the evaluation framework, improving multi-provider support, simplifying self-hosting, and adding custom metric support on lower tiers. Performance optimization to reduce proxy latency would benefit latency-sensitive use cases.
+
+### 9. Official Maintainer Contacts
+
+Helicone is maintained by Helicone Inc. GitHub: https://github.com/Helicone/helicone. Website: https://helicone.ai. Documentation: https://docs.helicone.ai. Discord: https://discord.helicone.ai.
+
+### 10. General Usage Guidance
+
+Use Helicone if you want zero-code LLM observability with cost tracking and caching, especially for existing applications where SDK changes are impractical. For deeper observability with evaluation features, evaluate Langfuse. For agent-specific tracing, evaluate AgentOps or LangSmith. Start with the proxy-based approach for quick wins, then layer in SDKs for deeper tracing as needed.
+
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
