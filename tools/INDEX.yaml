@@ -1,0 +1,490 @@
+meta:
+  repo: ArdurAI/ai-llmops-almanac
+  category: LLMOps
+  total_tools: 53
+  generated_at: '2026-07-03T10:51:27.957318'
+  schema_version: 2.0.0
+tools:
+- name: Adaline
+  id: adaline
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Production teams; end-to-end prompt lifecycle; versioning, testing, deployment, monitoring
+  file: adaline.md
+- name: AgentOps
+  id: agentops
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 5.6K
+  github: https://github.com/AgentOps-AI/agentops
+  description: Multi-framework; session replay, time-travel debugging; CrewAI, AutoGen, LangChain SDK
+  file: agentops.md
+- name: AutoGen
+  id: autogen
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/microsoft/autogen
+  description: AutoGen is a multi-agent conversational AI framework created by Microsoft Research in September 2023. It pioneered
+    the p
+  file: autogen.md
+- name: BISHENG
+  id: bisheng
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: China; 'Proudly made by Chinese'; Fortune 500 deployments; open-source alternative to Dify
+  file: bisheng.md
+- name: Botpress
+  id: botpress
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/botpress/botpress.
+  description: Open-source dialog + LLM; modular; community extensible
+  file: botpress.md
+- name: Braintrust
+  id: braintrust
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Notion, Stripe, Vercel, Coursera, Dropbox, Zapier, Perplexity, Ramp, Replit; evaluation-driven development;
+    Loop AI agen
+  file: braintrust.md
+- name: Comet Opik
+  id: comet-opik
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/comet-ml/opik.git
+  description: Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise
+  file: comet-opik.md
+- name: Confident AI
+  id: confident-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Git-based; branching, commit, approval workflows; only platform with git-style branching
+  file: confident-ai.md
+- name: Coze
+  id: coze
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: ByteDance; 100K+ bots; zero-code Bot builder; Doubao model; multi-channel publish
+  file: coze.md
+- name: CrewAI
+  id: crewai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/crewAIInc/crewAI
+  description: Python-based; multi-agent collaboration; 45,900+ GitHub stars; open-source (MIT); CrewAI AMP managed platform;
+    customers
+  file: crewai.md
+- name: Dify
+  id: dify
+  tier: C
+  type: Unknown
+  license: Multi-tenant SaaS use requires explicit licensing from LangGenius.
+  stars: 142K
+  github: https://github.com/repos/langgenius
+  description: 142K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS
+  file: dify.md
+- name: DSPy
+  id: dspy
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/stanfordnlp/dspy.git
+  description: Research/enterprise; programmatic prompt optimization; eliminates manual prompt engineering
+  file: dspy.md
+- name: FastGPT
+  id: fastgpt
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: China; RAG-focused; knowledge base QA; workflow orchestration
+  file: fastgpt.md
+- name: Flowise
+  id: flowise
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 54.9K
+  github: https://github.com/FlowiseAI/Flowise.git
+  description: 54.9K stars; drag-and-drop LLM flows; LangChain-native; self-hostable; owned by Workday
+  file: flowise.md
+- name: Future AGI
+  id: future-agi
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Enterprise; 50+ eval agents, 18 guardrails; text + voice simulation; traceAI library
+  file: future-agi.md
+- name: Gumloop
+  id: gumloop
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: '~$70M funding ($50M Series B led by Benchmark, Mar 2026); 130+ nodes; multi-model routing; YC W24; SOC 2 Type
+    II, GDPR; '
+  file: gumloop.md
+- name: Haystack
+  id: haystack
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/futureagi/traceai-haystack
+  description: Enterprise; document processing, semantic search; deep vector DB integration; deepset Cloud
+  file: haystack.md
+- name: Helicone
+  id: helicone
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/Helicone/helicone.git
+  description: Lightweight; request logging, cost tracking, caching; proxy-based; zero-code integration
+  file: helicone.md
+- name: HoneyHive
+  id: honeyhive
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Production agents; flexible deployment (SaaS, hybrid, self-hosted); agent lifecycle monitoring
+  file: honeyhive.md
+- name: Humanloop
+  id: humanloop
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Prompt editing; polished editing experience; narrower observability; no span-level tracing
+  file: humanloop.md
+- name: LangChain
+  id: langchain
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 134,000
+  github: https://github.com/langchain-ai/langchain
+  description: 134K+ stars; 1,000+ pre-built integrations; building applications with LLMs via Python and JavaScript
+  file: langchain.md
+- name: Langdock
+  id: langdock
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Europe; enterprise LLM platform; compliance-focused; EU AI Act ready
+  file: langdock.md
+- name: Langflow
+  id: langflow
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/langflow-ai/langflow.
+  description: Active community; prototype LangChain flows; drag-and-drop components + chat interface
+  file: langflow.md
+- name: Langfuse
+  id: langfuse
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 10,000
+  github: https://github.com/langfuse/langfuse.git
+  description: 16K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026
+  file: langfuse.md
+- name: LangGraph
+  id: langgraph
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 24,800
+  github: https://github.com/langchain-ai/langgraph
+  description: LangChain ecosystem; stateful, cyclic multi-agent orchestration; Deep Agents for long-running workflows
+  file: langgraph.md
+- name: LangSmith
+  id: langsmith
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/langchain-ai/langsmith-sdk
+  description: LangChain ecosystem; LangChain-native tracing, datasets; one-line integration; usage-based
+  file: langsmith.md
+- name: LangWatch
+  id: langwatch
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: DSPy integration; agent testing, simulation; synthetic conversation testing; voice agent testing
+  file: langwatch.md
+- name: Literal AI
+  id: literal-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Multi-modal; LLM observability + evaluation; prompt templates, versioned deploys, human feedback
+  file: literal-ai.md
+- name: LlamaIndex
+  id: llamaindex
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 40,000
+  github: https://github.com/run-llama/llama_index
+  description: Broad adoption; connecting LLMs with external data; central interface for data + LLM; 40K+ GitHub stars
+  file: llamaindex.md
+- name: Lunary
+  id: lunary
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 1,395
+  github: https://github.com/lunary-ai/lunary
+  description: Chatbot/RAG teams; LLM apps monitoring, prompt management; self-hostable; EU data center
+  file: lunary.md
+- name: Make
+  id: make
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: 1,000+ integrations (3,000+ apps); visual canvas builder; filters, routers, iterators; error handling; AI agents;
+    credit
+  file: make.md
+- name: Mastra
+  id: mastra
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 24,600
+  github: https://github.com/mastra-ai/mastra
+  description: Modern TypeScript-first stack; workflow orchestration, memory, evals; built by the Gatsby team (YC W25)
+  file: mastra.md
+- name: Maxim AI
+  id: maxim-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Enterprise; SOC2/HIPAA-ready observability; drift detection, audit trails, auto-remediation
+  file: maxim-ai.md
+- name: MLflow
+  id: mlflow
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/mlflow/mlflow
+  description: Linux Foundation; end-to-end GenAI lifecycle; only tool combining open-source, deep agent tracing
+  file: mlflow.md
+- name: n8n
+  id: n8n
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 188K
+  github: https://github.com/n8n-io/n8n
+  description: 188K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly
+  file: n8n.md
+- name: OpenAI Agents SDK
+  id: openai-agents-sdk
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 19,000
+  github: https://github.com/mem0ai/mem0
+  description: OpenAI ecosystem; lightweight agent building; tools, guardrails, handoffs; released March 2025
+  file: openai-agents-sdk.md
+- name: OpenLIT
+  id: openlit
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/openlit/openlit.
+  description: OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; monitoring LLMs, VectorDBs
+  file: openlit.md
+- name: Orq.ai
+  id: orqai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Europe; LLM app development platform; experiment, evaluate, deploy
+  file: orqai.md
+- name: Parea AI
+  id: parea-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: AI Engineers; LLM evaluation, observability, prompt playground; version-controlled enhanced prompt
+  file: parea-ai.md
+- name: Pezzo
+  id: pezzo
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/pezzolabs/pezzo.git
+  description: Developer-first; prompt design, version management, troubleshooting; two lines of code
+  file: pezzo.md
+- name: Promptfoo
+  id: promptfoo
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/promptfoo/promptfoo.
+  description: CI/CD; regression tests, prompt quality; open-source tool for testing & evaluating; CLI and CI/CD
+  file: promptfoo.md
+- name: PromptHub
+  id: prompthub
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Git-like workflow; versioning, branching, reviews; code-review workflow for prompts
+  file: prompthub.md
+- name: PromptLayer
+  id: promptlayer
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/MagnivOrg/promptlayer
+  description: Prompt engineering; collaboration, testing, evaluation; no-code editor for non-technical
+  file: promptlayer.md
+- name: Pydantic AI
+  id: pydantic-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/pydantic/pydantic-ai.git
+  description: Python developers; type-safe agent development; Pydantic validation; FastAPI integration
+  file: pydantic-ai.md
+- name: RAGflow
+  id: ragflow
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/infiniflow/ragflow.
+  description: 80.7K+ stars; deep document understanding; complex PDF/table parsing; dedicated RAG backend
+  file: ragflow.md
+- name: Relevance AI
+  id: relevance-ai
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Drag-and-drop; zero coding; non-technical users
+  file: relevance-ai.md
+- name: Semantic Kernel
+  id: semantic-kernel
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: 27,000
+  github: https://github.com/microsoft/semantic-kernel
+  description: Microsoft ecosystem; process framework for durable agents; Python, C#, Java; Azure AI Foundry
+  file: semantic-kernel.md
+- name: Temporal
+  id: temporal
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/temporalio/temporal
+  description: Long-running workflows; automatic retry, state persistence; production-grade for agents; Go-based
+  file: temporal.md
+- name: TruLens
+  id: trulens
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/truera/trulens
+  description: Free; evaluation auditing; moderate tracing; completely free
+  file: trulens.md
+- name: Vellum
+  id: vellum
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: McKinsey, Coframe; experimentation, evaluation, deployment; A/B testing; SOC 2; 99.998% uptime
+  file: vellum.md
+- name: Voiceflow
+  id: voiceflow
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: Visual agent builder; voice + chat; enterprise teams
+  file: voiceflow.md
+- name: Zapier
+  id: zapier
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: null
+  description: 7,000+ app integrations; no-code automation; AI steps, Zapier Agents, Tables, Interfaces; 3M+ users; 69% of
+    Fortune 1000
+  file: zapier.md
+- name: ZenML
+  id: zenml
+  tier: C
+  type: Unknown
+  license: Unknown
+  stars: null
+  github: https://github.com/zenml-io/zenml
+  description: ML pipelines; LangChain & LlamaIndex integrations; orchestrating, experimenting, deploying
+  file: zenml.md
