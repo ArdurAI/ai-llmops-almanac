@@ -1,5 +1,8 @@
 # Future AGI
 
+
+[![Observability](https://img.shields.io/badge/Also_in-Observability-blue)](https://github.com/ArdurAI/ai-observability-almanac)
+
 - **Category**: LLMOps Platforms & Workflow Automation
 - **Type**: Evals + Guardrails
 - **License**: Open Source (Apache-2.0)

@@ -1,5 +1,8 @@
 # RAGflow
 
+
+[![Agent Frameworks](https://img.shields.io/badge/Also_in-Agent_Frameworks-blue)](https://github.com/ArdurAI/ai-agent-framework-almanac)
+
 - **Category**: LLMOps Platforms & Workflow Automation
 - **Type**: RAG Engine
 - **License**: Open Source

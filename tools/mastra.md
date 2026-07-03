@@ -1,5 +1,8 @@
 # Mastra
 
+
+[![Agent Frameworks](https://img.shields.io/badge/Also_in-Agent_Frameworks-blue)](https://github.com/ArdurAI/ai-agent-framework-almanac) [![Infrastructure](https://img.shields.io/badge/Also_in-Infrastructure-blue)](https://github.com/ArdurAI/ai-infrastructure-almanac)
+
 - **Category**: LLMOps Platforms & Workflow Automation
 - **Type**: Agent Framework
 - **License**: Apache 2.0 (core); Mastra Enterprise License (ee/)

@@ -1,5 +1,8 @@
 # Botpress
 
+
+[![Agent Frameworks](https://img.shields.io/badge/Also_in-Agent_Frameworks-blue)](https://github.com/ArdurAI/ai-agent-framework-almanac)
+
 - **Category**: LLMOps Platforms & Workflow Automation
 - **Type**: Conversational
 - **License**: Open Source

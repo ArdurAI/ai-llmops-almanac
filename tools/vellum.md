@@ -1,5 +1,8 @@
 # Vellum
 
+
+[![Infrastructure](https://img.shields.io/badge/Also_in-Infrastructure-blue)](https://github.com/ArdurAI/ai-infrastructure-almanac)
+
 - **Category**: LLMOps Platforms & Workflow Automation
 - **Type**: Enterprise Orchestration
 - **License**: Proprietary
