@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Active community; prototype LangChain flows; drag-and-drop components + chat interface
 
@@ -184,7 +184,9 @@ Active community; prototype LangChain flows; drag-and-drop components + chat int
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v1.10.2` (2026-07-07): adds global variable model overrides and fixes telemetry writer execution to use session exec.
 
 ### 1. How Is This Tool Useful?
 

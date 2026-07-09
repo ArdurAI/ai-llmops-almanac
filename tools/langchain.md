@@ -9,15 +9,15 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
-> 134K+ stars; 1,000+ pre-built integrations; building applications with LLMs via Python and JavaScript
+> 141K+ stars; 1,000+ pre-built integrations; building applications with LLMs via Python and JavaScript
 
 ---
 
 ## Overview
 
-LangChain is the most widely adopted open-source framework for building LLM-powered applications and AI agents, with over 134,000 GitHub stars and a community-maintained catalog of more than 1,000 pre-built integrations spanning vector databases, document loaders, APIs, and embedding models. Its core value proposition is breadth and interoperability: developers can swap between OpenAI, Anthropic, Google Gemini, AWS Bedrock, and dozens of other providers with a one-line change, compose chains and agents from modular primitives, and move from prototype to production without switching frameworks. LangChain is available in both Python and JavaScript/TypeScript, making it one of the few truly cross-platform LLM orchestration stacks.
+LangChain is the most widely adopted open-source framework for building LLM-powered applications and AI agents, with over 141,000 GitHub stars and a community-maintained catalog of more than 1,000 pre-built integrations spanning vector databases, document loaders, APIs, and embedding models. Its core value proposition is breadth and interoperability: developers can swap between OpenAI, Anthropic, Google Gemini, AWS Bedrock, and dozens of other providers with a one-line change, compose chains and agents from modular primitives, and move from prototype to production without switching frameworks. LangChain is available in both Python and JavaScript/TypeScript, making it one of the few truly cross-platform LLM orchestration stacks.
 
 The framework is intentionally layered. At the base, it provides standardized model interfaces, prompt templates, and output parsers. Above that, it offers "chains" for multi-step workflows and "agents" for autonomous tool-calling loops. LangChain pairs natively with LangGraph for stateful, cyclic multi-agent orchestration, with Deep Agents for long-running workflows, and with LangSmith for observability, evaluation, and systematic debugging in production. That ecosystem breadth gives teams a unified path from rapid prototyping to metric-driven engineering, though the abstraction layers that accelerate early development can become friction points when debugging complex workflows or optimizing latency at scale.
 
@@ -218,11 +218,14 @@ python -c "from langchain.chat_models import init_chat_model; print('OK')"
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `langchain-core==1.4.9` (2026-07-08): improves LangSmith loader error messages, fixes XML and Pydantic output-parser bugs, avoids `dict` shadowing in language models, and applies ruff preview cleanup.
+- **Adoption signal:** GitHub stars moved from 140,843 to 141,387 (+544). Star references in this file now use the new 141,387 baseline.
 
 ### 1. How Is This Tool Useful?
 
-LangChain is the most widely adopted open-source LLM framework (MIT license, 134,000+ GitHub stars) for building LLM-powered applications and AI agents, with 1,000+ pre-built integrations spanning vector databases, document loaders, APIs, and models. Its core value is breadth and interoperability: developers can swap between OpenAI, Anthropic, Google Gemini, AWS Bedrock, and dozens of providers with a one-line change. Available in both Python and JavaScript/TypeScript, it is one of the few truly cross-platform LLM orchestration stacks.
+LangChain is the most widely adopted open-source LLM framework (MIT license, 141,000+ GitHub stars) for building LLM-powered applications and AI agents, with 1,000+ pre-built integrations spanning vector databases, document loaders, APIs, and models. Its core value is breadth and interoperability: developers can swap between OpenAI, Anthropic, Google Gemini, AWS Bedrock, and dozens of providers with a one-line change. Available in both Python and JavaScript/TypeScript, it is one of the few truly cross-platform LLM orchestration stacks.
 
 ### 2. Gotchas of Using This Tool
 
@@ -242,7 +245,7 @@ LangChain is MIT-licensed and fully open source. The large dependency tree (hund
 
 ### 6. What Does This Tool Solve That Others Don't?
 
-LangChain's unique strength is its unmatched integration breadth (1,000+ pre-built integrations) and cross-platform availability (Python + JavaScript/TypeScript). The LangChain ecosystem — LangGraph for stateful orchestration, LangSmith for observability, and Deep Agents for long-running workflows — provides a unified path from prototyping to production. The massive community (134K+ stars) ensures extensive tutorials, community support, and third-party resources.
+LangChain's unique strength is its unmatched integration breadth (1,000+ pre-built integrations) and cross-platform availability (Python + JavaScript/TypeScript). The LangChain ecosystem — LangGraph for stateful orchestration, LangSmith for observability, and Deep Agents for long-running workflows — provides a unified path from prototyping to production. The massive community (141K+ stars) ensures extensive tutorials, community support, and third-party resources.
 
 ### 7. How Does This Tool Rank Compared to Others?
 

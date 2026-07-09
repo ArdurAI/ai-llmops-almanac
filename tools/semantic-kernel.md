@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Microsoft ecosystem; process framework for durable agents; Python, C#, Java; Azure AI Foundry
 
@@ -228,7 +228,9 @@ python -c "import semantic_kernel; print(semantic_kernel.__version__)"
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `dotnet-1.78.0` (2026-07-07): updates the .NET package and tightens default HTTP behavior by disabling automatic redirects in HttpPlugin and WebFileDownloadPlugin clients.
 
 ### 1. How Is This Tool Useful?
 

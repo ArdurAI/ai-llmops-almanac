@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > 80.7K+ stars; deep document understanding; complex PDF/table parsing; dedicated RAG backend
 
@@ -184,7 +184,10 @@
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v0.26.4` (2026-07-07): adds a language-aware Snowball stemmer for 16 languages, wires the dataset `language` parameter through tokenization, and adds Dutch frontend support.
+- **Community health:** Open issues decreased from 2,446 to 2,319 (-127). This is a strong backlog-burn/triage signal, though closure quality should still be checked.
 
 ### 1. How Is This Tool Useful?
 

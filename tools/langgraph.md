@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > LangChain ecosystem; stateful, cyclic multi-agent orchestration; Deep Agents for long-running workflows
 
@@ -215,7 +215,9 @@ python -c "from langgraph.graph import StateGraph, START, END; print('OK')"
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `1.2.8` (2026-07-06): patch release fixing a delta-channel/updateState bug that could force a full snapshot on fresh threads, plus dependency maintenance including websocket updates.
 
 ### 1. How Is This Tool Useful?
 

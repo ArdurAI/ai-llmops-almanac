@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > CI/CD; regression tests, prompt quality; open-source tool for testing & evaluating; CLI and CI/CD
 
@@ -184,7 +184,9 @@ CI/CD; regression tests, prompt quality; open-source tool for testing & evaluati
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `0.121.18` (2026-07-08): adds a Node.js 20 support-cutoff campaign and associated release housekeeping.
 
 ### 1. How Is This Tool Useful?
 

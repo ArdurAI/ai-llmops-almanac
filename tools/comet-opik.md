@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise
 
@@ -221,7 +221,9 @@ cd opik && ./opik.sh
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `2.1.21` (2026-07-09): adds an opt-in Comet EM/Platform stack to the dev runner and begins ingesting CIPX spend blocks into a dedicated table with derived allocation.
 
 ### 1. How Is This Tool Useful?
 

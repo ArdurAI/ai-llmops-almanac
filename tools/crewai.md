@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Python-based; multi-agent collaboration; 45,900+ GitHub stars; open-source (MIT); CrewAI AMP managed platform; customers include PwC, IBM, NVIDIA, Capgemini; 60% of Fortune 500; $18M Series A (Oct 2024, Insight Partners)
 
@@ -223,7 +223,9 @@ result = crew.kickoff()
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `1.15.2` (2026-07-08): adds dynamic latest-LLM discovery in the crew wizard, inline skill definitions, Flow Definition authoring support, templated Flow action inputs, and CEL/text helper improvements.
 
 ### 1. How Is This Tool Useful?
 

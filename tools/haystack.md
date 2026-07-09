@@ -9,7 +9,7 @@
 - **Region**: EU (Germany)
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Enterprise; document processing, semantic search; deep vector DB integration; deepset Cloud
 
@@ -229,7 +229,9 @@ pip install hayhooks
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v2.31.0` (2026-07-08): begins slimming Haystack core ahead of 3.0 by migrating heavy or optional components into dedicated integration packages, reducing core dependency weight.
 
 ### 1. How Is This Tool Useful?
 

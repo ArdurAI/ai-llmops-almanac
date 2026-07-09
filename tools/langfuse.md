@@ -9,7 +9,7 @@
 - **Region**: EU (Germany) + USA (San Francisco)
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > 16K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026
 
@@ -246,7 +246,9 @@ docker compose up
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v3.210.0` (2026-07-09): adds RBAC support for cloud admins to view org/project settings, a PostHog instrumentation skill, live in-app agent reasoning, dashboard Home presets, and trace graph view mode switching.
 
 ### 1. How Is This Tool Useful?
 

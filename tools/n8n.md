@@ -9,15 +9,15 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
-> 188K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly
+> 195.8K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly
 
 ---
 
 ## Overview
 
-n8n (pronounced "n-eight-n") is a fair-code workflow automation platform founded in 2019 by Jan Oberhauser in Berlin, Germany. With approximately 174,000–188,000 GitHub stars and over 100 million Docker pulls, it is one of the most popular automation platforms in the open-source ecosystem. n8n combines a visual node-based editor with full JavaScript and Python code support, making it uniquely flexible for both no-code users and developers. The platform offers 400+ native integrations and over 1,200 integrations when including community nodes, with roughly 70 dedicated AI/LLM nodes.
+n8n (pronounced "n-eight-n") is a fair-code workflow automation platform founded in 2019 by Jan Oberhauser in Berlin, Germany. With approximately 195,818 GitHub stars and over 100 million Docker pulls, it is one of the most popular automation platforms in the open-source ecosystem. n8n combines a visual node-based editor with full JavaScript and Python code support, making it uniquely flexible for both no-code users and developers. The platform offers 400+ native integrations and over 1,200 integrations when including community nodes, with roughly 70 dedicated AI/LLM nodes.
 
 n8n's core value proposition is execution-based pricing (not per-step) and total data sovereignty through self-hosting. Unlike proprietary tools such as Zapier or Make, n8n does not charge extra for complex multi-step workflows or premium apps. The platform supports general business automation alongside native AI capabilities including LangChain integration, agent builders, RAG support, and MCP protocol support. n8n is licensed under the Sustainable Use License (fair-code), which allows self-hosting and modification but prohibits reselling n8n as a competing SaaS product. The company has raised significant funding and serves a community of over 200,000 active users, with a Discord of 73,000+ members and weekly releases.
 
@@ -220,11 +220,14 @@ docker run -it --rm \
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `n8n@2.29.9` (2026-07-09): patch release published from the 2.29.8→2.29.9 compare; release body is largely generated review metadata with no major feature callout in the monitored notes.
+- **Adoption signal:** GitHub stars moved from 195,026 to 195,818 (+792). Star references in this file now use the new 195,818 baseline.
 
 ### 1. How Is This Tool Useful?
 
-n8n is a fair-code workflow automation platform (174,000-188,000 GitHub stars, 100M+ Docker pulls) founded in 2019 by Jan Oberhauser in Berlin. It combines a visual node-based editor with full JavaScript and Python code support, offering 400+ native integrations and 1,200+ total integrations including ~70 AI/LLM nodes. n8n is uniquely flexible for both no-code users and developers, with self-hosting via Docker and a sustainable fair-code license.
+n8n is a fair-code workflow automation platform (195,818 GitHub stars, 100M+ Docker pulls) founded in 2019 by Jan Oberhauser in Berlin. It combines a visual node-based editor with full JavaScript and Python code support, offering 400+ native integrations and 1,200+ total integrations including ~70 AI/LLM nodes. n8n is uniquely flexible for both no-code users and developers, with self-hosting via Docker and a sustainable fair-code license.
 
 ### 2. Gotchas of Using This Tool
 
@@ -244,7 +247,7 @@ n8n is licensed under the Sustainable Use License (fair-code, not OSI-approved o
 
 ### 6. What Does This Tool Solve That Others Don't?
 
-n8n's unique strength is combining a powerful visual workflow builder with full code (JavaScript + Python) support and self-hosting capability — bridging the gap between no-code platforms and developer tools. The 174K+ GitHub stars and 100M+ Docker pulls demonstrate massive adoption. The AI agent nodes with tool-calling capabilities make n8n one of the few automation platforms natively supporting AI agent workflows. The fair-code model balances open access with sustainable business.
+n8n's unique strength is combining a powerful visual workflow builder with full code (JavaScript + Python) support and self-hosting capability — bridging the gap between no-code platforms and developer tools. The 195K+ GitHub stars and 100M+ Docker pulls demonstrate massive adoption. The AI agent nodes with tool-calling capabilities make n8n one of the few automation platforms natively supporting AI agent workflows. The fair-code model balances open access with sustainable business.
 
 ### 7. How Does This Tool Rank Compared to Others?
 

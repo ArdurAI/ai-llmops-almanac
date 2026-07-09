@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-09
 
 > Python developers; type-safe agent development; Pydantic validation; FastAPI integration
 
@@ -222,7 +222,9 @@ pip install "pydantic-ai[evals,logfire]"
 
 ## Deep Analysis
 
-> **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+### Daily monitoring update — 2026-07-09
+
+- **Latest release:** `v2.7.0` (2026-07-09): adds `azure-responses:[model-id]` shorthand and xAI `grok-4.5` support; fixes boolean JSON Schema handling, HTTPX event-hook preservation, model overrides, and AlibabaProvider document input behavior.
 
 ### 1. How Is This Tool Useful?
 
