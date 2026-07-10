@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-06-16
+- **Last Updated**: 2026-07-10
 
 > OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; monitoring LLMs, VectorDBs
 
@@ -185,6 +185,10 @@ OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; moni
 ## Deep Analysis
 
 > **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
+
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `py-1.43.0` (2026-07-09): adds SDK `log_score` support for user feedback and external scores, maps LangGraph message roles to OpenTelemetry conventions while filtering output to assistant-only content, and refreshes Python SDK dependencies for CrewAI, LangGraph, LangChain, and langchain-core.
 
 ### 1. How Is This Tool Useful?
 

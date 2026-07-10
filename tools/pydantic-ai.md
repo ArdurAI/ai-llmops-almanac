@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-10
 
 > Python developers; type-safe agent development; Pydantic validation; FastAPI integration
 
@@ -221,6 +221,10 @@ pip install "pydantic-ai[evals,logfire]"
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `v2.8.0` (2026-07-10; changelog dated 2026-07-09): adds `to_cli()` model passthrough for unset-model agents and bumps the bundled chat UI to 2.0.0/SDK v7; validates tool retry/timeout/concurrency parameters, recurses `JsonSchemaTransformer` through `allOf`, and fixes empty/thinking-only responses reusing prior run output.
 
 ### Daily monitoring update — 2026-07-09
 

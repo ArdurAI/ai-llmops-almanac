@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-10
 
 > LangChain ecosystem; stateful, cyclic multi-agent orchestration; Deep Agents for long-running workflows
 
@@ -214,6 +214,10 @@ python -c "from langgraph.graph import StateGraph, START, END; print('OK')"
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `1.2.9` (2026-07-10): patch release fixing `updateState` metadata/counters for the delta channel; otherwise primarily release plumbing.
 
 ### Daily monitoring update — 2026-07-09
 

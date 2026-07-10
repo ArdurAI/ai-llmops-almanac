@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-10
 
 > 195.8K stars; 400+ integrations, AI agent nodes; self-hostable; Germany-based; EU-friendly
 
@@ -219,6 +219,10 @@ docker run -it --rm \
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-10
+
+- **Latest release:** `n8n@2.29.10` (2026-07-10): bugfix release that keeps AI Assistant thread state intact during editor hand-off.
 
 ### Daily monitoring update — 2026-07-09
 
