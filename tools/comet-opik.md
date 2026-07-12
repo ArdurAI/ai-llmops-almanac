@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-12
 
 > Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise
 
@@ -220,6 +220,10 @@ cd opik && ./opik.sh
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `2.1.22` (2026-07-10): adds backend performance remediations for audit/enrichment scans, captures Claude Agent SDK / Claude Code content in Opik OTEL traces, adds diagnostics documentation/copy, improves Logs empty-state probing, enables cost API auth in platform mode, syncs provider model definitions/prices, and adds per-evaluation spend budgets for LLM-as-judge evaluators.
 
 ### Daily monitoring update — 2026-07-09
 

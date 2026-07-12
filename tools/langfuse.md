@@ -9,7 +9,7 @@
 - **Region**: EU (Germany) + USA (San Francisco)
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-12
 
 > 16K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026
 
@@ -245,6 +245,10 @@ docker compose up
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `v3.212.0` (2026-07-10): adds dashboard widget menus, copy/paste, and versioned JSON import/export; instruments analytics for search/filter/peek/graph/timeline/tree usage; fixes AI feature model selection for Bedrock small-model env vars, delays in-app-agent feedback controls until turn end, improves denied-tool-call reactions, and bumps `protobufjs` to 7.6.5.
 
 ### Daily monitoring update — 2026-07-09
 

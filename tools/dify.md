@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-12
 
 > 148.3K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS
 
@@ -216,6 +216,10 @@ docker compose up -d
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-12
+
+- **Community health:** Open issues increased from 830 to 954 (+124). This is a material backlog reversal after the prior reduction; monitor plugin/runtime regressions and self-hosted support load.
 
 ### Daily monitoring update — 2026-07-09
 

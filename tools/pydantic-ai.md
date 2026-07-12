@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-10
+- **Last Updated**: 2026-07-12
 
 > Python developers; type-safe agent development; Pydantic validation; FastAPI integration
 
@@ -222,6 +222,11 @@ pip install "pydantic-ai[evals,logfire]"
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-12
+
+- **Latest release:** `v2.9.0` (2026-07-11; release notes dated 2026-07-10): adds the `clai /usage` cumulative-token command, GPT-5.6 models/reasoning mode for OpenAI, and `RunContext.usage_limits`; fixes Anthropic Files API beta handling for uploads, `repr()` crashes, FIPS-safe non-crypto hashes, DBOS `MCPToolset` IDs, nested `capture_run_messages`, cancellation deadlocks, and early-end handling for native/prompted/image outputs.
+- **Security warning:** Public moderate advisory `GHSA-jpr8-2v3g-wgf9` (CWE-863) affects AG-UI `UIAdapter.sanitize_messages` dangling-tool-call stripping in `pydantic-ai` / `pydantic-ai-slim` `>=2.0.0,<2.5.0` and `>=1.88.0,<1.107.1`; patched in `2.5.0` and `1.107.1`. Versions `2.5.0+` / `1.107.1+` already include the fix.
+
 ### Daily monitoring update — 2026-07-10
 
 - **Latest release:** `v2.8.0` (2026-07-10; changelog dated 2026-07-09): adds `to_cli()` model passthrough for unset-model agents and bumps the bundled chat UI to 2.0.0/SDK v7; validates tool retry/timeout/concurrency parameters, recurses `JsonSchemaTransformer` through `allOf`, and fixes empty/thinking-only responses reusing prior run output.
@@ -244,7 +249,7 @@ Pydantic AI's integration ecosystem is smaller than LangChain's 1,000+ integrati
 
 ### 4. How Secure Is This Tool?
 
-Pydantic AI is open-source (MIT license for Python, Apache 2.0 for TypeScript) with code on GitHub. The framework benefits from Pydantic's mature validation engine for input/output sanitization. Tool function execution follows Pydantic's validation patterns. No major CVEs have been reported. Teams should ensure API keys are stored securely and that tool functions have proper permission boundaries.
+Pydantic AI is open-source (MIT license for Python, Apache 2.0 for TypeScript) with code on GitHub. The framework benefits from Pydantic's mature validation engine for input/output sanitization, but a public moderate advisory, `GHSA-jpr8-2v3g-wgf9` (CWE-863), affected AG-UI `UIAdapter.sanitize_messages` dangling-tool-call stripping in `pydantic-ai` / `pydantic-ai-slim` `>=2.0.0,<2.5.0` and `>=1.88.0,<1.107.1`; patched in `2.5.0` and `1.107.1`. The advisory is not exploitable when sensitive tools require approval or tool handlers validate arguments and enforce authorization themselves. Teams should ensure API keys are stored securely and that tool functions have proper permission boundaries.
 
 ### 5. Usefulness to General Public and Non-Technical Users
 
