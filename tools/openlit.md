@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-10
+- **Last Updated**: 2026-07-17
 
 > OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; monitoring LLMs, VectorDBs
 
@@ -183,6 +183,10 @@ OpenTelemetry-native; GenAI + LLM auto-instrumentation; token & cost usage; moni
 ---
 
 ## Deep Analysis
+
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `openlit-1.24.1` (2026-07-15): Adds OpenAPI spec/dashboard UI reference and centralized middleware token auth, plus a dimension registry for trace analysis.
 
 > **Authored by Team Ardur** — Researched and compiled as part of the ArdurAI LLMOps Platforms & Workflow Automation Almanac. Licensed under CC BY 4.0.
 

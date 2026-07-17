@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-17
 
 > CI/CD; regression tests, prompt quality; open-source tool for testing & evaluating; CLI and CI/CD
 
@@ -184,6 +184,10 @@ CI/CD; regression tests, prompt quality; open-source tool for testing & evaluati
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `0.121.19` (2026-07-14): Adds Bedrock GPT-5.6 frontier provider support.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `0.121.18` (2026-07-08): adds a Node.js 20 support-cutoff campaign and associated release housekeeping.
@@ -237,3 +241,7 @@ Use Promptfoo if you want lightweight, CI/CD-integrated testing of LLM outputs a
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

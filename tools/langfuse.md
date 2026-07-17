@@ -9,7 +9,7 @@
 - **Region**: EU (Germany) + USA (San Francisco)
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-12
+- **Last Updated**: 2026-07-17
 
 > 16K+ stars; tracing, evals, prompt management; self-hostable; acquired by ClickHouse Jan 2026
 
@@ -246,6 +246,10 @@ docker compose up
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v3.218.0` (2026-07-16): Fixes score filters so they apply consistently to every event stream.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `v3.212.0` (2026-07-10): adds dashboard widget menus, copy/paste, and versioned JSON import/export; instruments analytics for search/filter/peek/graph/timeline/tree usage; fixes AI feature model selection for Bedrock small-model env vars, delays in-app-agent feedback controls until turn end, improves denied-tool-call reactions, and bumps `protobufjs` to 7.6.5.
@@ -303,3 +307,7 @@ Use Langfuse if you want an open-source, self-hostable LLM observability platfor
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

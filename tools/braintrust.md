@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-17
 
 > Notion, Stripe, Vercel, Coursera, Dropbox, Zapier, Perplexity, Ramp, Replit; evaluation-driven development; Loop AI agent; 20+ native SDK integrations; Brainstore purpose-built database; $80M Series B (Feb 2026) at $800M valuation
 
@@ -213,6 +213,10 @@ BRAINTRUST_API_KEY=<key> braintrust eval tutorial_eval.py
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `braintrust@3.23.1` (2026-07-16): Claude Agent SDK integration cleanup for span metadata.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `braintrust@3.21.0` (2026-07-07): adds `inject`/`extract` APIs for distributed tracing across service boundaries and avoids capturing message history in AI SDK tool spans.
@@ -266,3 +270,7 @@ Use Braintrust if your team prioritizes rigorous, data-driven evaluation of LLM 
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

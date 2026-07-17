@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-12
+- **Last Updated**: 2026-07-17
 
 > Python developers; type-safe agent development; Pydantic validation; FastAPI integration
 
@@ -222,6 +222,10 @@ pip install "pydantic-ai[evals,logfire]"
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `v2.12.0` (2026-07-17): Adds Moonshot AI `kimi-k3` model support and emits `EnqueuedMessagesEvent` when queued messages are delivered into a run.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `v2.9.0` (2026-07-11; release notes dated 2026-07-10): adds the `clai /usage` cumulative-token command, GPT-5.6 models/reasoning mode for OpenAI, and `RunContext.usage_limits`; fixes Anthropic Files API beta handling for uploads, `repr()` crashes, FIPS-safe non-crypto hashes, DBOS `MCPToolset` IDs, nested `capture_run_messages`, cancellation deadlocks, and early-end handling for native/prompted/image outputs.
@@ -284,3 +288,7 @@ Use Pydantic AI if you value type safety, structured outputs, and IDE support fo
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

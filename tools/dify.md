@@ -9,15 +9,15 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-12
+- **Last Updated**: 2026-07-17
 
-> 148.3K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS
+> 149.1K stars; visual workflow, RAG, Agent; most-starred OSS; commercial restrictions on multi-tenant SaaS
 
 ---
 
 ## Overview
 
-Dify is an open-source LLM application development platform operated by LangGenius, Inc., first released in May 2023. With over 148,000 GitHub stars, it is the most-starred open-source LLM platform in the ecosystem. Dify combines a visual workflow builder, an agent framework, RAG (Retrieval-Augmented Generation) pipelines, and knowledge-base management into a unified environment. The platform supports five application types: chatbots, single-agent, text generation, chatflows, and workflows. In 2025, Dify introduced a v1.0 plugin ecosystem and marketplace, enabling extensible tools, strategies, and model integrations.
+Dify is an open-source LLM application development platform operated by LangGenius, Inc., first released in May 2023. With over 149,000 GitHub stars, it is the most-starred open-source LLM platform in the ecosystem. Dify combines a visual workflow builder, an agent framework, RAG (Retrieval-Augmented Generation) pipelines, and knowledge-base management into a unified environment. The platform supports five application types: chatbots, single-agent, text generation, chatflows, and workflows. In 2025, Dify introduced a v1.0 plugin ecosystem and marketplace, enabling extensible tools, strategies, and model integrations.
 
 Dify is licensed under a modified Apache-2.0 license that permits commercial use with two key restrictions: (1) multi-tenant SaaS deployments require an explicit commercial license from LangGenius, and (2) the Dify logo and copyright information in the frontend may not be removed. The platform is available both as a cloud-hosted service and as a self-hosted community edition. The cloud service imposes limits on apps, requests, and memory based on the plan, while the self-hosted option is free and unlimited but requires Docker-based deployment. Dify offers native integrations with Langfuse for observability and supports OpenTelemetry tracing for production monitoring.
 
@@ -217,6 +217,11 @@ docker compose up -d
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Adoption signal:** GitHub stars moved from 148,541 to 149,120 (+579). Track 149,120 as the current monitoring baseline because this crossed the >500 daily-change threshold.
+- **Community health:** Open issues moved from 954 to 1,025 (+71). This is a material backlog increase; watch maintainer triage capacity, support load, and regression risk.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Community health:** Open issues increased from 830 to 954 (+124). This is a material backlog reversal after the prior reduction; monitor plugin/runtime regressions and self-hosted support load.
@@ -228,7 +233,7 @@ docker compose up -d
 
 ### 1. How Is This Tool Useful?
 
-Dify is an open-source LLM application development platform (modified Apache 2.0, 148,000+ GitHub stars) that combines a visual workflow builder, agent framework, RAG pipelines, and knowledge-base management into a unified environment. As the most-starred open-source LLM platform, it supports five application types: chatbots, agents, text generation, chatflows, and workflows. Dify is particularly useful for teams that want a self-hostable, visual-first alternative to code-based frameworks.
+Dify is an open-source LLM application development platform (modified Apache 2.0, 149,000+ GitHub stars) that combines a visual workflow builder, agent framework, RAG pipelines, and knowledge-base management into a unified environment. As the most-starred open-source LLM platform, it supports five application types: chatbots, agents, text generation, chatflows, and workflows. Dify is particularly useful for teams that want a self-hostable, visual-first alternative to code-based frameworks.
 
 ### 2. Gotchas of Using This Tool
 
@@ -248,7 +253,7 @@ Dify is open-source under a modified Apache 2.0 license, allowing independent se
 
 ### 6. What Does This Tool Solve That Others Don't?
 
-Dify's unique strength is its unified platform approach — combining visual workflow building, RAG, agent orchestration, and knowledge management in a single self-hostable product. The 148,000+ GitHub stars and large community provide extensive integrations and templates. Its 'Backend-as-a-Service meets LLMOps' positioning with API endpoints for every app type is distinctive. The v1.0 plugin marketplace creates an ecosystem for extensibility.
+Dify's unique strength is its unified platform approach — combining visual workflow building, RAG, agent orchestration, and knowledge management in a single self-hostable product. The 149,000+ GitHub stars and large community provide extensive integrations and templates. Its 'Backend-as-a-Service meets LLMOps' positioning with API endpoints for every app type is distinctive. The v1.0 plugin marketplace creates an ecosystem for extensibility.
 
 ### 7. How Does This Tool Rank Compared to Others?
 
@@ -275,3 +280,7 @@ Use Dify if you want a self-hostable, visual-first LLM app builder with strong c
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

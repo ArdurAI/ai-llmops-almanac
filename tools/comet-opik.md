@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: A
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-12
+- **Last Updated**: 2026-07-17
 
 > Comet ecosystem; eval + tracing; built-in metrics; agent optimizer SDK; free + enterprise
 
@@ -221,6 +221,10 @@ cd opik && ./opik.sh
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Latest release:** `2.1.31` (2026-07-16): Backend release persists additional CIPX payment-plan and thinking/settings fields, updates model pricing data, and adds new identity/timestamp metadata support.
+
 ### Daily monitoring update — 2026-07-12
 
 - **Latest release:** `2.1.22` (2026-07-10): adds backend performance remediations for audit/enrichment scans, captures Claude Agent SDK / Claude Code content in Opik OTEL traces, adds diagnostics documentation/copy, improves Logs empty-state probing, enables cost API auth in platform mode, syncs provider model definitions/prices, and adds per-evaluation spend budgets for LLM-as-judge evaluators.
@@ -278,3 +282,7 @@ Use Opik if you are already in the Comet ML ecosystem or need unified ML + LLM o
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*

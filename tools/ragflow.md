@@ -9,7 +9,7 @@
 - **Region**: N/A
 - **Tier**: B
 - **First Triaged**: 2026-06-16
-- **Last Updated**: 2026-07-09
+- **Last Updated**: 2026-07-17
 
 > 80.7K+ stars; deep document understanding; complex PDF/table parsing; dedicated RAG backend
 
@@ -184,6 +184,10 @@
 
 ## Deep Analysis
 
+### Daily monitoring update — 2026-07-17
+
+- **Community health:** Open issues moved from 2,305 to 2,145 (-160). This is a material backlog reduction; positive signal, but verify whether closures reflect fixes versus stale-issue pruning.
+
 ### Daily monitoring update — 2026-07-09
 
 - **Latest release:** `v0.26.4` (2026-07-07): adds a language-aware Snowball stemmer for 16 languages, wires the dataset `language` parameter through tokenization, and adds Dutch frontend support.
@@ -238,3 +242,7 @@ Use RagFlow if you need deep document understanding for RAG applications with co
 ## License
 
 Content for this page is licensed CC BY 4.0 — share and adapt with attribution to **ArdurAI / LLMOps Platforms & Workflow Automation Almanac**.
+
+---
+
+*Authored by Team Ardur · CC BY 4.0*
